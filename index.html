@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <script type="module" src="./script.js"></script>
+    <script src="./node_modules/html2pdf.js/dist/html2pdf.bundle.min.js"></script>
+
+    <title>CV</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="left_side">
+
+            <!--Profile-->
+            <div class="profile">
+                <div class="Image_setting">
+                    <img src="Image/Profilbild.jpg" width="180px">
+                </div>
+
+                <h4>Robert Jodelsohn</h4>
+                <h5>Net Developer</h5>
+                <button data-html2canvas-ignore class="btn" id="toPdf" onclick="PDF()">Download PDF</button>
+            </div>
+
+            <!--Contact Info-->
+            <div class="left_items">
+                <h4 class="title">Kontakt Information</h4>
+                <ul>
+                    <li>
+                        <span class="icons">
+                            <i class="bx bx-map"></i>
+                        </span>
+                        <span class="text">Net Developer</span>
+                    </li>
+                    <li>
+                        <span class="icons">
+                            <i class="bx bx-envelope"></i>
+                        </span>
+                        <span class="text">robert.jodelsohn@gmail.com</span>
+                    </li>
+                    <li>
+                        <span class="icons">
+                            <i class="bx bx-phone"></i>
+                        </span>
+                        <span class="text">+46736221768</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!--UTBILDNING-->
+            <div class="left_items">
+                <h4 class="title">Utbildning</h4>
+                <ul>
+                    <li>
+                        <h4 class="dates">2000-2003</h4>
+                        <h5 class="text">Juridik/Språk</h5>
+                        <h5 class="text">Brännkyrka gymnasium</h5>
+                    </li>
+
+                </ul>
+
+
+
+            </div>
+
+            <!--Språk-->
+            <div class="left_items">
+                <h4 class="title">Språk</h4>
+                <ul class="languages">
+                    <li>
+                        <span class="text">Engelska</span>
+                        <div class="percent">
+                            <div style="width: 100%"></div>
+                        </div>
+
+
+                    </li>
+                    <li>
+                        <span class="text">Spanska</span>
+                        <div class="percent">
+                            <div style="width: 75%"></div>
+                        </div>
+
+
+                    </li>
+
+
+                </ul>
+
+
+            </div>
+
+        </div>
+
+        <div class="right_side">
+
+            <!--Yrkeserfarenhet-->
+            <div class="right_items">
+                <h3 class="title">Om mig</h3>
+                <p>Kreativ och driven Net developer under pågående utbildning söker LIA plats för hösten 2022.
+                </p>
+            </div>
+
+            <!--Arbetslivserfarenhet-->
+            <div class="right_items">
+                <h4 class="title">Arbetslivserfarenhet</h4>
+
+                <div class="experience">
+                    <div class="time_line">
+                        <span class="time_point"></span>
+                        <span class="time_road"></span>
+                    </div>
+                    <div class="content">
+                        <div class="interval">
+                            <h5>2017-2020</h5>
+                            <h5>Småföretagarnas a-kassa</h5>
+                        </div>
+                        <div class="description">
+                            <h4>Medlemshandläggare</h4><br>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, minus?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience">
+                    <div class="time_line">
+                        <span class="time_point"></span>
+                        <span class="time_road"></span>
+                    </div>
+                    <div class="content">
+                        <div class="interval">
+                            <h5>2016-2017</h5>
+                            <h5>Endicott</h5>
+                        </div>
+                        <div class="description">
+                            <h4>Kundtjänst</h4><br>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, explicabo?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Kompetenser-->
+            <div class="right_items">
+                <h4 class="title">Kompetenser</h4>
+                <div class="skills">
+                    <h4>Html</h4>
+                    <div class="percent">
+                        <div style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <h4>CSS</h4>
+                    <div class="percent">
+                        <div style="width: 80%"></div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <h4>javascript</h4>
+                    <div class="percent">
+                        <div style="width: 50%"></div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <h4>React</h4>
+                    <div class="percent">
+                        <div style="width: 45%"></div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <h4>C#</h4>
+                    <div class="percent">
+                        <div style="width: 75%"></div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <h4>SQL</h4>
+                    <div class="percent">
+                        <div style="width: 55%"></div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <h4>ASP.NET core</h4>
+                    <div class="percent">
+                        <div style="width: 60%"></div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <h4>Github</h4>
+                    <div class="percent">
+                        <div style="width: 70%"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!--hobbies-->
+            <div class="right_items">
+                <h4 class="title">Intressen</h4>
+                <ul class="hobby">
+                    <li><i class="bx bx-music"></i>Musik</li>
+                    <li><i class="bx bx-dumbbell"></i>Träna</li>
+
+
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <!-- <script> import('./script.js').then(({ PDF }) => {
+            console.log(PDF)
+        });</script> -->
+
+
+    <!--Custom JS-->
+    <script type="text/javascript">
+
+
+        function PDF() {
+            const e = document.querySelector(".container");
+
+            // Resize
+            e.style.maxWidth = "210mm";
+            // e.style.minHeight = "297mm";
+            e.style.height = "297mm";
+
+            //type 	string 	‘jpeg’ 	The image type. HTMLCanvasElement only supports ‘png’, ‘jpeg’, and ‘webp’ (on Chrome).
+            //Options
+            const opt = {
+                filename: 'resume.pdf',
+                margin: 0,
+                image: {
+                    type: "png",
+                    quality: 0.99
+                },
+                html2canvas: { scale: 2, y: 0, scrollY: 0, maxHeight: "297m" },
+                // jsPDF: {
+                //     unit: "mm",
+                //     format: "a4",
+                //     orientation: "portrait"
+                // },
+                pagebreak: {
+                    mode: ["avoid-all", "css", "legacy"]
+                }
+            };
+
+
+            // // Resize
+            // e.style.maxWidth = "210mm";
+            // e.style.height = "297mm";
+            // //Options
+
+            // // const opt = {
+            // //     margin: 0,
+            // //     filename: 'docIdpdf.pdf',
+            // //     image: { type: 'jpeg', quality: 0.98 },
+            // //     html2canvas: { scale: 1, y: 0, scrollY: 0, useCORS: true },
+            // //     jsPDF: { unit: 'mm', format: 'A4', orientation: 'portrait' },
+            // //     pagebreak: {
+            // //         mode: ["css", "legacy"]
+            // //     }
+            // // };
+
+            // const opt = {
+            //     filename: 'resume.pdf',
+            //     image: {
+            //         type: "jpg",
+            //         quality: 0.99
+            //     },
+            //     margin: 0,
+            //     html2canvas: { scale: 3, y: 0, scrollY: 0 },
+            //     jsPDF: { format: 'A4' },
+            //     // jsPDF: {
+            //     //     unit: "pt",
+            //     //     format: "letter",
+            //     //     orientation: "portrait"
+            //     // },
+            //     pagebreak: {
+            //         mode: ["css", "legacy"]
+            //     }
+            // };
+            // var element = document.querySelector(".container");
+            html2pdf().set(opt).from(e).save();
+
+            // const hmm = html2pdf().set(opt).from(e).save();
+            //Resize
+            setTimeout(() => {
+                e.style.maxWidth = "1400px";
+                e.style.minHeight = "600px";
+
+            }, 2000);
+        }
+
+    </script>
+
+
+</body>
+
+</html>
